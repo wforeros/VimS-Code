@@ -9,8 +9,12 @@ Para esto se van a aprovechar las funcionalidades que provee el plugin de Vim pa
 > [!IMPORTANT]
 > Las configuraciones pueden ser modificadas, lo que se encuentra en este repositorio es basado en la configuración de [LazyVim](https://www.lazyvim.org/) junto a modificaciones personales.
 
-> [!NOTE]
-> Si te gustaría ver una explicación en **vídeo de las ventajas** de esta configuración no olvides dejar tu estrella en este repo para motivar 🤠 adicionalmente el feedback siempre es bienvenido.
+## Video de YouTube
+
+En este vídeo podrás ver como usar esta configuración junto a la demostración de los diferentes atajos que se encuentran en este repositorio.
+
+[![Video para Configurar VS Code](https://img.youtube.com/vi/XHya6-pForE/0.jpg)](https://www.youtube.com/watch?v=XHya6-pForE)
+
 
 ## Requisitos
 
@@ -63,4 +67,3 @@ Incluyendo otras un poco más avanzadas como:
 - Hacer copia de commits en otras ramas (cherry-pick)
 - Y muchas más
 
-###
