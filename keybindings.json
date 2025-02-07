@@ -33,6 +33,16 @@
     "command": "workbench.action.navigateLeft"
   },
   {
+    "key": "ctrl-h",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  {
+    "key": "ctrl-h",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "editorTextFocus && activeEditorGroupIndex == 1 && explorerViewletVisible"
+  },
+  {
     "key": "ctrl-l",
     "command": "workbench.action.navigateRight"
   },
@@ -43,6 +53,11 @@
   {
     "key": "ctrl-j",
     "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "explorerViewletVisible && filesExplorerFocus"
   },
   {
     "key": "space ,",
@@ -138,11 +153,11 @@
     "command": "workbench.action.closeOtherEditors",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
-  {
-    "key": "space space",
-    "command": "workbench.action.quickOpen",
-    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  },
+  // {
+  //   "key": "space space",
+  //   "command": "workbench.action.quickOpen",
+  //   "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  // },
   {
     "key": "space g d",
     "command": "editor.action.revealDefinition",
