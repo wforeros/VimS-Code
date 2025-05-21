@@ -104,7 +104,7 @@
 
   // Coding
   {
-    "key": "space /",
+    "key": "space shift+\\",
     "command": "workbench.action.splitEditor",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
@@ -139,8 +139,13 @@
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
-    "key": "space c s",
+    "key": "space s s",
     "command": "workbench.action.gotoSymbol",
+    "when": "vim.mode == 'Normal' && editorTextFocus"
+  },
+  {
+    "key": "space w d",
+    "command": "workbench.action.closeEditorsInGroup",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
   {
@@ -153,11 +158,11 @@
     "command": "workbench.action.closeOtherEditors",
     "when": "vim.mode == 'Normal' && editorTextFocus"
   },
-  // {
-  //   "key": "space space",
-  //   "command": "workbench.action.quickOpen",
-  //   "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
-  // },
+  {
+    "key": "space space",
+    "command": "workbench.action.quickOpen",
+    "when": "vim.mode == 'Normal' && (editorTextFocus || !inputFocus)"
+  },
   {
     "key": "space g d",
     "command": "editor.action.revealDefinition",
